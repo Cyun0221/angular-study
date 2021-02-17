@@ -10,7 +10,6 @@ export class S1PositionComponent implements OnInit {
   constructor() { }
 
   ngOnInit(): void {
-    console.log('aaa');
   }
 
 }
