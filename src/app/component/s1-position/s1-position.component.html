@@ -1,0 +1,17 @@
+<div class="perch"><span style="color: white;">占位</span></div>
+<!-- static，默认值，不存在定位，不脱离文档流，会忽略top，bottom，left,right属性 -->
+<div class="static">static</div>
+
+<!-- absolute，绝对定位，相对于static定位之外的第一个父元素进行定位 -->
+<!-- 脱离文档流存在，可以使用top，bottom，left,right属性来进行定位 -->
+<!-- 区别于fixed？，如果容器是有卷轴的话，那么absolute定位的块是会随着卷轴的移动而移动的 -->
+<div class="absolute">absolute</div>
+
+<!-- 展示absolute的绝对定位，内层的absolute是相对于父元素去进行定位的 -->
+<div class="absolute" style="left: 610px;">
+  <div class="absolute" style="background-color: grey; top: 100px;">absolute</div>
+</div>
+
+<div style="position: relative; width: 100%; height: 300px; background-color: aliceblue;">
+  <span style="position: absolute; bottom: 0; right: 0;">absolute文档流占位</span>
+</div>

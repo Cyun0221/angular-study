@@ -1,0 +1,20 @@
+.perch {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+}
+
+.static {
+  position: static;
+  width: 300px;
+  height: 300px;
+  background-color: #a7a7a7;
+}
+
+.absolute {
+  position: absolute;
+  width: 300px;
+  height: 300px;
+  background-color: yellowgreen;
+  left: 100px;
+}
