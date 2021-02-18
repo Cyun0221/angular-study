@@ -18,3 +18,15 @@
   background-color: yellowgreen;
   left: 100px;
 }
+
+.button_command {
+  flex: 1;
+  border: 1px solid red;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+  outline-style: none;
+}
